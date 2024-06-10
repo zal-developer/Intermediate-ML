@@ -19,12 +19,13 @@
 #### Summary
 
 Model: "sequential_3"
+
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param   
 =================================================================
- dense_5 (Dense)             (None, 5)                 10        
+ dense_5 (Dense)             (None, 5)                  10        
                                                                  
- dense_6 (Dense)             (None, 1)                 6         
+ dense_6 (Dense)             (None, 1)                   6         
                                                                  
 =================================================================
 Total params: 16 (64.00 Byte)
