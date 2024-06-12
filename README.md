@@ -2,7 +2,7 @@
 The objective of this project is to develop a predictive model using both traditional machine learning algorithms and neural networks. The goal is to compare the performance of these models and determine the best approach for production deployment.
 
 ## Feature Engineering Approaches
-- Handling Missing Values: Imputed missing values using mean/median.
+- Handling Missing Values: Dropped the missing values because they made a small percentage to the full dataset.
 - Categorical Encoding: Applied one-hot encoding to categorical variables.
 - Feature Scaling: Standardized numerical features using standard scaler.
 - Feature Selection: Used correlation analysis to remove highly correlated features.
