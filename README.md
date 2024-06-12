@@ -1,5 +1,6 @@
 ## Business Case
-The objective of this project is to develop a predictive model using both traditional machine learning algorithms and neural networks. The goal is to compare the performance of these models and determine the best approach for production deployment.
+The overall goal is to predict metabolic syndrome, yes or not based on common risk factors.
+The objective therefore is to develop a predictive model using both traditional machine learning algorithms and neural networks. The goal is to compare the performance of these models and determine the best approach for production deployment.
 
 ## Feature Engineering Approaches
 - Handling Missing Values: Dropped the missing values because they made a small percentage to the full dataset.
