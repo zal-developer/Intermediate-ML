@@ -51,8 +51,18 @@ _________________________________________________________________
 weighted avg       0.39      0.63      0.48       503
 
 ### Final evaluation metrics
-
 'loss': 0.6425641179084778,
  'accuracy': 0.628230631351471,
  'recall': 0.0,
  'precision': 0.0
+
+##### Logistic regression model.
+- The logistic regression metrics were high on both the train and test data,both classes (MetSyn and No MetSyn) were predicted and the accuracy was also high.
+- It had a higher number of cases with no MetSyn compared to those with the disease.
+
+##### Neural network 
+- High Loss & Low Accuracy: The loss and accuracy values suggest that the model's performance is mediocre, not terrible but far from ideal.
+
+- Zero Recall & Precision: The recall and precision values being 0.0 are highly concerning. This usually indicates a severe issue with the model's ability to identify positive cases. The model might be heavily biased towards predicting the negative class (possibly due to class imbalance).
+
+  The Logistic regression model was the better model which i would recommend for production.
